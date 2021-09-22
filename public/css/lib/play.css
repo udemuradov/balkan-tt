@@ -1,0 +1,18 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/play/Play-Regular.ttf'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../fonts/play/Play-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+/* montserrat-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/play/Play-Bold.ttf'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../fonts/play/Play-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+}

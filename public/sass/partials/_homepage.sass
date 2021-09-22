@@ -1,0 +1,268 @@
+//About
+.about
+    margin-bottom: 30px
+    margin-top: 100px
+    height: 700px
+    position: relative
+    padding-top: 50px
+    &_ellipse
+        margin-top: 50px
+        background-color: #ffb3b3
+        width: 750px
+        height: 700px
+        left: -40%
+        border-radius: 50%
+        position: absolute
+        z-index: -1
+    &_card
+        background-color: #fff
+        padding: 40px 30px
+        width: 85%
+        border-radius: 20px
+        box-shadow: 0px 15px 50px 1px #f55050
+        h3
+            font-size: 20px
+            font-weight: 700
+            padding-left: 20px
+        p
+            padding-top: 10px
+        &-first
+            margin-top: 130px
+        &-second
+            margin-left: 70px
+            margin-top: 50px
+        &-third
+            margin-top: 50px
+    &_title
+    &_content
+        margin-top: 70px
+        &-title
+            h2
+                text-transform: uppercase
+                position: relative
+                font-size: 40px
+                font-weight: bold
+                color: #da0000
+            h3
+                margin-top: 15px
+                font-size: 40px
+                font-weight: 700
+                color: #000
+                span
+                    font-weight: 700
+                    color: #da0000
+        &-text
+            margin-top: 50px
+            p
+                color: #333 
+                font-size: 20px
+        &-grafik
+            margin-top: 50px
+            ul
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                li
+                    font-size: 20px
+                    span
+                        font-weight: 900
+                        font-size: 55px
+                        color: #da0000
+
+//Services    
+
+.services
+    padding-top: 30px
+    background-color: #ebecf0
+    margin-top: -50px
+    margin-bottom: -50px
+    &_card
+        width: 100%
+        padding: 40px 30px 40px 30px
+        box-sizing: border-box
+        height: 370px
+        border-radius: 20px
+        transition: .5s
+        background: #ebf5fc
+        box-shadow: inset -6px -6px 20px rgba(225, 225, 225,0.5), inset 6px 6px 20px rgba(0, 0, 0,0.05)
+        &:hover
+            box-shadow: -6px -6px 20px rgba(225, 225, 225,1),6px 6px 20px rgba(0, 0, 0,0.1)
+        &:hover .services_card-front
+            display: none
+        &:hover .services_card-back
+            width: 100%
+            display: block
+        &:hover .services_card-img
+            background: #fff
+            border-radius: 20px
+
+        &-img
+            display: flex
+            position: relative
+            align-items: center
+            padding: 10px 0px 10px 30px
+
+            // justify-content: flex-end
+            #webprog
+                fill: #46beea
+            a
+                font-size: 18px
+                border: 1px solid #000
+                padding: 10px 20px
+                border-radius: 30px
+        .services_card-back
+            display: none
+            width: 100%
+            p
+                margin-top: 10px
+                line-height: 14px
+                font-size: 14px
+                display: flex
+                align-items: center
+                i
+                    color: #da0000
+                    margin-right: 10px
+    
+        h2
+            margin: 20px 0
+            font-weight: 700
+            font-size: 18px
+            // color: #00aeff
+        p
+            margin-top: 20px
+            line-height: 25px
+            font-size: 16px
+            // font-weight: 700
+            // color: #da0000
+    // .sc-blue
+    //     border-top: 3px solid #00aeff
+    // .sc-red
+    //     border-top: 3px solid #00aeff
+    //     // margin-top: 80px
+    // .sc-yellow
+    //     border-top: 3px solid #00aeff
+    // .sc-green
+    //     border-top: 3px solid #00aeff
+    //     // margin-top: 80px
+    .service_card-col
+        display: none
+
+
+//REVIEW
+
+.review
+    &_title
+        width: 100%
+        margin-bottom: 30px
+        // display: flex
+        // justify-content: center
+        h2
+            position: relative
+            font-size: 20px
+            font-weight: 700
+            color: #f55050
+            &::before
+                position: absolute
+                top: 50%
+                left: -3%
+                content: ""
+                width: 40px
+                height: 2px
+                background-color: #f55050
+    &_content
+        background: rgba($bg-color, .3 )
+        height: 430px
+        border-radius: 20px
+        margin-bottom: 30px
+        padding: 40px 10px 0 30px
+        width: 100%
+        position: relative
+        // border-right: 1px solid #333
+        // border-top: 1px solid #333
+        // border-bottom: 1px solid #f55050
+        // border-left: 1px solid #333
+        // border: 1px solid #333
+
+        &-text
+            line-height: 25px
+            position: relative
+            i
+                font-size: 70px
+            p
+                font-size: 18px
+                color: #020202
+                padding-left: 40px
+                i
+                    padding-right: 20px
+                    color: #f55050
+        &-company
+            display: flex
+            flex-direction: row
+            padding-top: 20px
+            justify-content: flex-end
+            align-items: center
+            &-name
+                font-size: 18px
+                color: #000
+                font-weight: 700
+                padding-right: 20px
+
+// .review-col-first
+//     border: 1px solid #f55050
+// .review-col-second
+//     border-right: 1px solid #f55050
+//     border-top: 1px solid #f55050
+//     border-bottom: 1px solid #f55050
+// .review-col-third
+//     border-right: 1px solid #f55050
+//     border-top: 1px solid #f55050
+//     border-bottom: 1px solid #f55050
+// .review-col-four
+//     border-left: 1px solid #f55050
+//     border-bottom: 1px solid #f55050
+//     border-right: 1px solid #f55050
+// .review-col-five
+//     border-right: 1px solid #f55050
+//     border-bottom: 1px solid #f55050
+// .review-col-six
+//     border-right: 1px solid #f55050
+//     border-bottom: 1px solid #f55050
+
+
+//Request
+
+.request
+    margin-bottom: 100px
+    &_content
+        display: flex
+        border-radius: 10px
+        flex-direction: column
+        align-items: center
+        padding: 60px 30px
+        background: #ebecf0
+        // border: 1px solid #333
+        h3
+            padding-bottom: 30px
+            font-size: 28px
+            color: #333
+            font-weight: 900
+#request_form
+    // width: 100%
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    justify-content: center
+#request_name
+    margin-right: 30px
+#request_name, #request_email
+    width: 45%
+    padding: 20px 30px
+    border-radius: 10px
+#request_btn
+    background: #fff
+    padding: 15px 35px
+    margin-top: 20px
+    color: #333
+    font-weight: 700
+    font-size: 16px
+    border-radius: 10px
