@@ -20,7 +20,7 @@ app.post('/', (req, res) =>{
         service: 'gmail',
         auth: {
             user: 'balkanturkmentranzit@gmail.com',
-            pass: 'bntt26.08.21'
+            pass: ''
         }
     })
     const mailOptions = {
