@@ -20,7 +20,7 @@ app.post('/', (req, res) =>{
         service: 'gmail',
         auth: {
             user: 'balkanturkmentranzit@gmail.com',
-            pass: ''
+            pass: 'bntt26.08.21'
         }
     })
     const mailOptions = {
@@ -40,7 +40,6 @@ app.post('/', (req, res) =>{
         }else{
             console.log('Email sent: ' + info.response);
             res.send('success')
-
         }
     } )
 });

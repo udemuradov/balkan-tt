@@ -140,8 +140,7 @@
   padding: 10px 20px;
 }
 .cp_form form button:hover {
-  border: 1px solid #da0000;
-  background: #da0000;
+  background: #333;
   color: #fff;
 }
 .cp_contact h3 {
@@ -1264,6 +1263,8 @@ h6 {
 .footer {
   flex: 0 0 auto;
 }
+
+
 
 @media screen and (max-width: 1450px) {
   .aboutpage_about-title h2 {
